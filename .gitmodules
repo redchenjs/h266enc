@@ -1,0 +1,3 @@
+[submodule "repo/axi_h266enc"]
+	path = repo/axi_h266enc
+	url = https://github.com/redchenjs/axi_h266enc.git
