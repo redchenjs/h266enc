@@ -6,7 +6,7 @@
       "name": "h266enc",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2",
+      "tool_version": "2022.2.2",
       "validated": "true"
     },
     "design_tree": {
@@ -24,7 +24,7 @@
       "zynq_ultra_ps_e_0": {
         "vlnv": "xilinx.com:ip:zynq_ultra_ps_e:3.4",
         "xci_name": "h266enc_zynq_ultra_ps_e_0_0",
-        "xci_path": "ip/h266enc_zynq_ultra_ps_e_0_0/h266enc_zynq_ultra_ps_e_0_0.xci",
+        "xci_path": "ip\\h266enc_zynq_ultra_ps_e_0_0\\h266enc_zynq_ultra_ps_e_0_0.xci",
         "inst_hier_path": "zynq_ultra_ps_e_0",
         "parameters": {
           "PSU_DDR_RAM_HIGHADDR_OFFSET": {
@@ -148,7 +148,7 @@
       },
       "ps8_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip/h266enc_ps8_0_axi_periph_0/h266enc_ps8_0_axi_periph_0.xci",
+        "xci_path": "ip\\h266enc_ps8_0_axi_periph_0\\h266enc_ps8_0_axi_periph_0.xci",
         "inst_hier_path": "ps8_0_axi_periph",
         "xci_name": "h266enc_ps8_0_axi_periph_0",
         "parameters": {
@@ -267,7 +267,7 @@
               "auto_pc": {
                 "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
                 "xci_name": "h266enc_auto_pc_0",
-                "xci_path": "ip/h266enc_auto_pc_0/h266enc_auto_pc_0.xci",
+                "xci_path": "ip\\h266enc_auto_pc_0\\h266enc_auto_pc_0.xci",
                 "inst_hier_path": "ps8_0_axi_periph/s00_couplers/auto_pc",
                 "parameters": {
                   "MI_PROTOCOL": {
@@ -362,13 +362,13 @@
       "rst_ps8_0_96M": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "xci_name": "h266enc_rst_ps8_0_96M_0",
-        "xci_path": "ip/h266enc_rst_ps8_0_96M_0/h266enc_rst_ps8_0_96M_0.xci",
+        "xci_path": "ip\\h266enc_rst_ps8_0_96M_0\\h266enc_rst_ps8_0_96M_0.xci",
         "inst_hier_path": "rst_ps8_0_96M"
       },
       "axi_smc": {
         "vlnv": "xilinx.com:ip:smartconnect:1.0",
         "xci_name": "h266enc_axi_smc_0",
-        "xci_path": "ip/h266enc_axi_smc_0/h266enc_axi_smc_0.xci",
+        "xci_path": "ip\\h266enc_axi_smc_0\\h266enc_axi_smc_0.xci",
         "inst_hier_path": "axi_smc",
         "parameters": {
           "NUM_SI": {
@@ -428,7 +428,7 @@
       "axi_h266enc_0": {
         "vlnv": "user.org:user:axi_h266enc:1.0",
         "xci_name": "h266enc_axi_h266enc_0_0",
-        "xci_path": "ip/h266enc_axi_h266enc_0_0/h266enc_axi_h266enc_0_0.xci",
+        "xci_path": "ip\\h266enc_axi_h266enc_0_0\\h266enc_axi_h266enc_0_0.xci",
         "inst_hier_path": "axi_h266enc_0",
         "interface_ports": {
           "m_axi": {
